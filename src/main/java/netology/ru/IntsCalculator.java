@@ -1,10 +1,12 @@
 package netology.ru;
 
-public class IntsCalculator implements Ints{
+public class IntsCalculator implements Ints {
 
     protected final Calculator target;
 
-    public IntsCalculator() { this.target = new Calculator(); }
+    public IntsCalculator() {
+        this.target = new Calculator();
+    }
 
     @Override
     public int sum(int arg0, int arg1) {
